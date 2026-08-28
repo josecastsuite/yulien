@@ -1,12 +1,6 @@
 name = "yulien"
 compatibility_date = "2024-01-01"
 
-# Static dosyalar root'ta - index.html, music.mp3 burada
 [assets]
-directory = "./"
+directory = "./public"
 not_found_handling = "single-page-application"
-
-# Eğer R2 kullanacaksan (opsiyonel) - yoksa bu kısmı sil
-# [[r2_buckets]]
-# binding = "MUSIC_BUCKET"
-# bucket_name = "yulien-music"
